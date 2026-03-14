@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sushi Katana</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🍣 Sushi Katana</h1>
+
+<div class="menu"></div>
+
+<button class="cart" onclick="openCart()">🛒 Корзина</button>
+
+<div class="cart-container" style="display:none;">
+  <h2>🛒 Корзина</h2>
+  <div id="cart-items"></div>
+  <p>Итого: <span id="total">0</span> сум</p>
+
+  <h3>Ваши данные</h3>
+  <input type="text" id="name" placeholder="Имя"><br>
+  <input type="tel" id="phone" placeholder="Телефон"><br>
+  <input type="text" id="address" placeholder="Адрес"><br>
+
+  <button onclick="submitOrder()">Оформить заказ</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
