@@ -3,7 +3,7 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
 import asyncio
 
 TOKEN = "8452220227:AAF_kV0w9nKd0nNh82xs7RgrRwzW6OtPz1E"
-WEBAPP_URL = "https://ВАШ_ДОМЕН.render.com"
+WEBAPP_URL = "https://sushi-63f5.onrender.com"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
